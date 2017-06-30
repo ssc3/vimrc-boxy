@@ -38,7 +38,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'supertab'
 
 
 " All of your Plugins must be added before the following line
@@ -79,6 +78,7 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+set csprg=/usr/bin/cscope
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
