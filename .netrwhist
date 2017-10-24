@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/local/shuchatt/nginx_ebro/xsd/schema'
 let g:netrw_dirhist_2='/local/shuchatt/rel_ebro/common/external/nginx/nginx-1.6.2/conf'
+let g:netrw_dirhist_3='/local/shuchatt/trunk_ovs_july14'

@@ -200,6 +200,12 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" Automatically remove trailing whitespaces
+autocmd BufWritePre *.py :%s/\s\+$//e
+
+" Indentfunction arguments
+set cino+=(0
+
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
